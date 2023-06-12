@@ -1,0 +1,12 @@
+Command:
+
+npm Install:
+npm install -g newman 
+
+OR,
+
+npm install -g newman-reporter-htmlextra
+
+newman run 2ND_TIME_API.postman_collection.json -e bug7.postman_environment.json
+
+newman run 2ND_TIME_API.postman_collection.json -e bug7.postman_environment.json -r htmlextra
